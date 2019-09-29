@@ -6,15 +6,15 @@ services:
     # -e EULA=true
     # -e MC_MAXMEM=2g
     #
-     image: "nimmis/spigot"
-     ports:
-      - "8123:8123"
-      - "25565:25565"
-      - "25575:25575"
-     volumes:
-      - ./volume/:/minecraft
-     environment:
-      - EULA=true
-      - MC_MAXMEM=5g
-      # - SPIGOT_UID=1000
-      - SPIGOT_VER=1.14.4
+      image: "nimmis/spigot"
+      ports:
+        - "8123:8123"
+        - "25565:25565"
+        - "25575:25575"
+      volumes:
+        - ./volume/:/minecraft
+      environment:
+        - EULA=true
+        - MC_MAXMEM=5g
+        # - SPIGOT_UID=1000
+        - SPIGOT_VER=1.14.4
