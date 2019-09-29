@@ -4,7 +4,7 @@ services:
   # docker run -d -p 8123:8123 -p 25565:25565 -p 25575:25575 -e EULA=true nimmis/spigot
   # -v /home/nimmis/mc-srv:/minecraft
   # -e EULA=true
-  # -e MC_MAXMEM=2g
+  # -e MC_MAXMEM=5g
   #
     image: "nimmis/spigot"
     ports:
