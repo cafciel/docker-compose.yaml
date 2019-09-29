@@ -6,7 +6,7 @@ services:
     # -e EULA=true
     # -e MC_MAXMEM=2g
     #
-     -image: "nimmis/spigot"
+     - image: "nimmis/spigot"
      - ports:
         - "8123:8123"
         - "25565:25565"
